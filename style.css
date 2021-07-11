@@ -1,3 +1,31 @@
-.container-fluid{
+
+body{
+  background-color: rgb(19, 8, 46);
+  color:white ;
+  margin: 0;
+  display: grid;
+
+}
+.container-1{
+  width: 80%;
+  background: rgb(19, 8, 46);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
   
 }
+  .inner{
+    background: #00B6FF;
+    padding: 1em;
+    border-radius: 10px;
+    width: 500px;
+    clip-path: circle(10% at 60% 50%);
+    transition: clip-path .5s ease-in-out;
+    cursor: pointer;
+  }
+
+:hover{
+  clip-path: circle(100%);
+  background:rgb(19, 8, 46) ;
+}
+  
