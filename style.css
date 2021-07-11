@@ -4,15 +4,17 @@ body{
   color:white ;
   margin: 0;
   display: grid;
+ 
+
 
 }
 .container-1{
-  width: 80%;
+  width: 100%;
   background: rgb(19, 8, 46);
   border-radius: 10px;
   justify-content: center;
   align-items: center;
-  
+  text-align: center;
 }
   .inner{
     background: #00B6FF;
@@ -29,3 +31,4 @@ body{
   background:rgb(19, 8, 46) ;
 }
   
+
