@@ -8,17 +8,32 @@ body{
 
 
 }
+
+
+.one::before{
+  position: absolute;
+  background-color: rgb(73, 72, 72);
+  width: 500px;
+  height: 500px;
+}
+h1{
+    text-align: center;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    
+}
 .container-1{
+  background-image: url(./images/);
   width: 100%;
   background: rgb(19, 8, 46);
   border-radius: 10px;
-  justify-content: center;
+  justify-items: center;
   align-items: center;
   text-align: center;
 }
   .inner{
     background: #00B6FF;
     padding: 1em;
+    margin-left: 250px;
     border-radius: 10px;
     width: 500px;
     clip-path: circle(10% at 60% 50%);
@@ -31,4 +46,20 @@ body{
   background:rgb(19, 8, 46) ;
 }
   
+.work{
+margin-top: 20px;
+padding: 1em;
+}
+.work img{
+  border: 1px solid black;
+  display: absolute;
+  justify-content: start;
+}
 
+footer{
+  text-align: center;
+}
+h2{
+    background: #00B6FF;
+    
+}
